@@ -82,7 +82,7 @@ wget -O - https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts
 
 # 5 Recommended
 
-sudo apt-get install python-catkin-tools -y
+sudo apt-get install python3-catkin-tools -y
 
 # 6 Optional
 
