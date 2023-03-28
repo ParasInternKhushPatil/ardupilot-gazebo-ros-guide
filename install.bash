@@ -2,7 +2,7 @@
 set -e
 set -x
 
-DISTRO="melodic"
+DISTRO="noetic"
 IWD="$HOME"
 
 
