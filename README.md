@@ -11,13 +11,13 @@ An example project: https://github.com/yanhwee/helium
 - MAVROS (ROS package)
 
 ## Requirements
-Tested on Native Ubuntu 18.04.4.
+Tested on Native Ubuntu 20.04.4.
 
 ## Quick Installation
 Script defaults to the home directory as the initial working directory, modifiable in the script.
 Script will use this working directory to git clone ArduPilot & ArduPilot Gazebo Plugin repositories.
 
-`wget -O - https://raw.githubusercontent.com/yanhwee/ardupilot-gazebo-ros-guide/master/install.bash | bash`
+`wget -O - https://raw.githubusercontent.com/ParasInternKhushPatil/ardupilot-gazebo-ros-guide/master/install.bash | bash`
 
 Script will refresh the sudo timeout every 10 mins so intallation will not be interrupted. Please do not `sudo bash`. This will run as root and script will not work.
 
