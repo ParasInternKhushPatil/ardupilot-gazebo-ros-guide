@@ -26,7 +26,7 @@ if ! grep -q "source /opt/ros/$DISTRO/setup.bash" ~/.bashrc; then
     source ~/.bashrc
 fi
 
-sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential -y
+sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential -y
 
 sudo rosdep init || true
 rosdep update
