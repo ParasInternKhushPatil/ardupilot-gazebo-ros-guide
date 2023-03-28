@@ -7,11 +7,11 @@ An example project: https://github.com/yanhwee/helium
 - ArduPilot
 - ArduPilot Gazebo Plugin (khancyr)
 - Gazebo 9
-- ROS Melodic
+- ROS Noetic
 - MAVROS (ROS package)
 
 ## Requirements
-Tested on Native Ubuntu 20.04.4.
+Tested on Native Ubuntu 20.04.
 
 ## Quick Installation
 Script defaults to the home directory as the initial working directory, modifiable in the script.
@@ -27,7 +27,7 @@ The guide below walks through the steps found in the script.
 
 ## References
 1. ROS Melodic Ubuntu Installation  
-http://wiki.ros.org/melodic/Installation/Ubuntu
+http://wiki.ros.org/noetic/Installation/Ubuntu
 
 2. ArduPilot  
 https://ardupilot.org/dev/docs/building-setup-linux.html
@@ -48,7 +48,7 @@ https://github.com/mavlink/mavros/tree/master/mavros
 1. Follow all steps:  
 http://wiki.ros.org/melodic/Installation/Ubuntu
     - Install: `ros-<distro>-desktop-full`
-    - For our case: `ros-melodic-desktop-full`
+    - For our case: `ros-noetic-desktop-full`
     - Gazebo will be installed alongside ROS
 
 ### 2. ArduPilot
@@ -72,8 +72,7 @@ https://github.com/khancyr/ardupilot_gazebo#usage-
 ### 4. MAVROS
 1. Binary Installation  
 https://github.com/mavlink/mavros/tree/master/mavros#binary-installation-deb
-    - Replace 'kinetic' with 'melodic'
-    - `sudo apt-get install ros-melodic-mavros ros-melodic-mavros-extras`
+    - `sudo apt-get install ros-noetic-mavros ros-noetic-mavros-extras`
 
 2. Install GeographicLib  
 https://github.com/mavlink/mavros/tree/master/mavros#binary-installation-deb
@@ -86,8 +85,7 @@ https://ardupilot.org/dev/docs/ros-install.html#installing-mavros
 ### 6. Optional
 1. RQT (ROS package)  
 https://ardupilot.org/dev/docs/ros-install.html#installing-mavros
-    - Replace 'kinetic' with 'melodic'
-    - `sudo apt-get install ros-melodic-rqt ros-melodic-rqt-common-plugins ros-melodic-rqt-robot-plugins`
+    - `sudo apt-get install ros-noetic-rqt ros-noetic-rqt-common-plugins ros-noetic-rqt-robot-plugins`
 
 ## Quick Test
 1. Without ROS  
